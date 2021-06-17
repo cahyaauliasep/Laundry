@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/penghitunganFragment">
+
+    <fragment
+        android:id="@+id/penghitunganFragment"
+        android:name="org.d3if0088.penghitungan.PenghitunganFragment"
+        android:label="PenghitunganFragment"
+        tools:layout="@layout/penghitungan_fragment">
+        <action
+            android:id="@+id/action_penghitunganFragment_to_lengkapFragment2"
+            app:destination="@id/lengkapFragment" />
+        <action
+            android:id="@+id/action_penghitunganFragment_to_tentangFragment"
+            app:destination="@id/tentangFragment" />
+        <action
+            android:id="@+id/action_penghitunganFragment_to_kategoriFragment"
+            app:destination="@id/kategoriFragment" />
+        <action
+            android:id="@+id/action_penghitunganFragment_to_pelangganFragment"
+            app:destination="@id/pelangganFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_penghitunganFragment_to_lengkapFragment"
+        app:destination="@id/lengkapFragment" />
+
+    <fragment
+        android:id="@+id/lengkapFragment"
+        android:name="org.d3if0088.penghitungan.feature.laundry.view.LengkapFragment"
+        android:label="LengkapFragment"
+        tools:layout="@layout/lengkap_fragment">
+        <argument
+            android:name="kuantitas"
+            app:argType="org.d3if0088.penghitungan.data.KuantitasLaundry" />
+        <argument
+            android:name="namaPelanggan"
+            app:argType="string"
+            android:defaultValue="Anonymous" />
+        <argument
+            android:name="namaKategori"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/tentangFragment"
+        android:name="org.d3if0088.penghitungan.feature.laundry.view.TentangFragment"
+        android:label="TentangFragment"
+        tools:layout="@layout/tentang_fragment"/>
+
+    <fragment
+        android:id="@+id/kategoriFragment"
+        android:name="org.d3if0088.penghitungan.feature.laundry.view.KategoriFragment"
+        android:label="KategoriFragment"
+        tools:layout="@layout/fragment_kategori"/>
+
+    <fragment
+        android:id="@+id/pelangganFragment"
+        android:name="org.d3if0088.penghitungan.feature.laundry.view.PelangganFragment"
+        android:label="PelangganFragment"
+        tools:layout="@layout/fragment_pelanggan"/>
+</navigation>

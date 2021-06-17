@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Penghitung Laundry</string>
+    <string name="jumlah_x">Jumlah : %1$d</string>
+    <string name="kategori_x">Kategori : %1$s</string>
+    <string name="celana_invalid">Isi Jumlah Celana</string>
+    <string name="baju_invalid">Isi Jumlah Baju</string>
+    <string name="jenis_cucian_invalid">Pilih Jenis Cucian</string>
+    <string name="bagikan_invalid">Isi Data Terlebih Dahulu</string>
+    <string name="lengkap_invalid">Isi Data Terlebih Dahulu</string>
+    <string name="perhitungan_intro">Aplikasi Penghitung Laundry</string>
+    <string name="baju">Jumlah seluruh baju</string>
+    <string name="celana">Jumlah seluruh celana</string>
+    <string name="jenis_cucian">Jenis Cucian</string>
+    <string name="kering">Kering</string>
+    <string name="basah">Basah</string>
+    <string name="hitung">Hitung</string>
+    <string name="reset_button">Ulang</string>
+    <string name="judul_laundry">Laundry Mamake</string>
+    <string name="judul_tentang">Tentang Aplikasi</string>
+    <string name="judul_pelanggan">Pelanggan Laundry</string>
+    <string name="judul_kategori">Kategori Laundry</string>
+    <string name="judul_banyak">Cucian Banyak</string>
+    <string name="judul_sedikit">Cucian Sedikit</string>
+    <string name="saran_banyak">Hemat pakaian ya, pakailah pakaian seharusnya, untuk menghemat air.</string>
+    <string name="saran_sedikit">Pertahankan cucian yang sedikit!Tetapi tetap mempertimbangkan kesehatan dan kebersihan, ya!</string>
+    <string name="lihat_selengkapnya">Detail</string>
+    <string name="tentang">Laundry mamake merupakan laundry yang dikhususkan untuk baju dan celana.
+        Aplikasi Perhitungan ini digunakan untuk menghitung jumlah harga pakaian yang telah di cuci di Laundry Mamake.\n \n
+        Adapun cara memakai Aplikasi ini yaitu : \n
+    a. Pilih nama pelanggan yang tersedia\n
+    b. Di jumlah keseluruhan celana , isi jumlah atau total keseluruhan celana \n
+    c. Di jumlah keseluruhan baju, isi jumlah atau total keseluruhan baju\n
+    d. Di bagian jenis cucian, pilih jenis cucian, yaitu basah atau kering\n
+    e. Pilih kategori cucian yang tersedia\n
+    d. Kemudian klik hitung</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Jumlah celana (Rp) : %1$s \nJumlah baju (Rp) : %2$s
+\nJenis cucian : %3$s\n\n%4$s\n%5$s</string>
+    <string name="jenis_x">Jenis Cucian : %1$s</string>
+    <string name="hint_jumlah_celana">Jumlah Seluruh Celana (Rp)</string>
+    <string name="hint_jumlah_baju">Jumlah Seluruh Baju (Rp)</string>
+    <string name="spinner_pelanggan_text">Pelanggan</string>
+    <string name="spinner_kategori_text">Paket</string>
+    <string name="error">ERROR</string>
+    <string name="hint_kategori_cucian">Masukkan Kategori Cucian</string>
+    <string name="tambah">Tambah</string>
+    <string name="kategori_invalid">Isi Kategori Laundry</string>
+</resources>
